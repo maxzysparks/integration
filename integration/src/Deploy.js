@@ -1,6 +1,6 @@
 const ContractKit = require("@celo/contractkit");
 const Web3 = require("web3");
-const MyToken = require("./build/contracts/MyToken.sol");
+const MyToken = require("./contracts/MyToken.sol");
 
 async function deploy() {
   // Create a new instance of ContractKit
